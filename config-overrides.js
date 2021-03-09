@@ -7,14 +7,6 @@ const {
   addPostcssPlugins
 } = require('customize-cra');
 const path = require('path')
-const ENV = {
-  DEV: 'https://testm.youbomsa.com/api/v4',
-  PROD: 'https://m.youbomsa.com'
-};
-const SECOND_ENV = {
-  DEV: 'https://testlive.youbomsa.com',
-  PROD: 'https://live.youbomsa.com/index.php?r='
-};
 const addCustomize = () => config => {
   // 关闭sourceMap
   config.devtool = false;

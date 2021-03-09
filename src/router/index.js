@@ -1,5 +1,5 @@
 import AsyncComponent from '@/components/asyncComponent'
-// import OnePage from './onePage'
+import OnePage from './onePage'
 
 
 const Layout = AsyncComponent(() => import('@/views/layout'))
@@ -11,14 +11,7 @@ const Layout = AsyncComponent(() => import('@/views/layout'))
  * @component 组件名称
  */
 const Routers = [
-    {
-    path: '/login', //登录
-    component: AsyncComponent(() => import('@/views/login')),
-    },
-    {
-      path: '/test', //登录
-      component: AsyncComponent(() => import('@/views/test')),
-      },
+  ...OnePage,
   {
     path: '/',
     component: Layout,

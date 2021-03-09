@@ -17,7 +17,7 @@ const headers = {
     }
     // request拦截器
 service.interceptors.request.use(config => {
-    config.headers = headers
+    config.headers =Object.assign(config.headers,headers) 
     return config
 }, error => {
     // Do something with request error

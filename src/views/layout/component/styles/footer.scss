@@ -23,6 +23,15 @@ footer {
                     width: 27px;
                     height: 27px;
                 }
+                .show{
+                    position:absolute;
+                    display: block;
+                }
+                .hide{
+                    
+                    display:none;
+                }
+                
             }
 
             &.active {

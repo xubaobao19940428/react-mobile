@@ -13,7 +13,6 @@ import { renderRoutes } from 'react-router-config';
         
     }
     shouldComponentUpdate(){
-       
         return false
     }
     tabUpdate=(item)=>{

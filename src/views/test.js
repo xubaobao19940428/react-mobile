@@ -1,6 +1,7 @@
-import { render } from "@testing-library/react";
+
 /**
  * 这里是例子无状态组件用react Hooks
+ * 
  */
 import React,{useState,useEffect} from 'react'
 
