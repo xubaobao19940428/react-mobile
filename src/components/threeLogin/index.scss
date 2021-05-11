@@ -1,0 +1,14 @@
+.three_login{
+    height:50px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .three_login_logo{
+        margin-top:20px;
+        img{
+            margin:0 20px;
+        }
+    }
+}
